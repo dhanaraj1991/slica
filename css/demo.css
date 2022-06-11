@@ -1,0 +1,37 @@
+.block__76208 .accordion-item .heading > a:before {
+    content: '';
+    background: url("../images/brush.png");
+    width: 30px;
+    height: 30px;
+    line-height: 27px;
+    border: 1px solid #a2c0be;
+    text-align: center;
+    font-size: 18px;
+    top: -0.7px;
+    left: 0;
+    border-radius: 50%;
+  }
+  .block__76208 .accordion-item .heading > a[aria-expanded="true"]:before {
+    /* font-family: "icomoon"; */
+    content: '';
+    background: url("../images/brush.png");
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    /* content: "\f1b0"; */
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    /* background: #a2c0be; */
+    color: #fff;
+    border: 1px solid #a2c0be;
+  }
+  .block__76208 .accordion-item .heading > a[aria-expanded="false"]:before {
+    /* content: "\f1b0"; */
+    color: #ccc;
+    font-family: "icomoon";
+    position: absolute;
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+  }
